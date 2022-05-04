@@ -1,6 +1,6 @@
 FROM python:3.8.1-alpine AS base
 
-ENV CPPCHECK_VERSION=1.90
+ENV CPPCHECK_VERSION=2.7
 
 WORKDIR /tmp/cppcheck
 
